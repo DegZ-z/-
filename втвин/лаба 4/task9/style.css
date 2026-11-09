@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 220px);
+    gap: 20px;
+}
+.item {
+    font-size: 12px;
+    color: #444444;
+}
+.item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    display: block;
+    margin-top: 5px;
+}
+.f-gray {
+    filter: grayscale(100%);
+}
+.f-sepia {
+    filter: sepia(100%);
+}
+.f-blur {
+    filter: blur(3px);
+}
+.f-invert {
+    filter: invert(100%);
+}

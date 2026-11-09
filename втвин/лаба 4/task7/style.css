@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    padding: 30px;
+    background-color: #fdfdfd;
+    display: flex;
+    gap: 40px;
+}
+.box {
+    width: 120px;
+    height: 120px;
+    background-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #eeeeee;
+}
+.bs-1 {
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+.bs-2 {
+    box-shadow: -5px -5px 0px #ff0000, 5px 5px 0px #0000ff;
+}
+.bs-3 {
+    box-shadow: inset 4px 4px 8px rgba(0,0,0,0.4);
+    background-color: #f0f0f0;
+}

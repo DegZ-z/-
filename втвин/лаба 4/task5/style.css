@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+.section {
+    margin-bottom: 30px;
+}
+h3 {
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.gradient-block {
+    width: 300px;
+    height: 150px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+}
+.linear {
+    background-image: linear-gradient(to right, #ffd700 0%, #ffd700 33.3%, #ff0000 33.3%, #ff0000 66.6%, #0000ff 66.6%, #0000ff 100%);
+}
+.radial {
+    background-image: radial-gradient(circle at 75% 75%, #ffffff 0%, #004d00 60%, #001a00 100%);
+}
+.repeating {
+    background-image: repeating-linear-gradient(45deg, #ffffff 0px, #ffffff 10px, #4682b4 10px, #4682b4 20px);
+}
