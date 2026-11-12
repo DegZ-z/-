@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    padding: 30px;
+    line-height: 2.5;
+    font-size: 18px;
+    font-weight: bold;
+}
+.line-1 {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #0000ff;
+}
+.line-2 {
+    text-decoration-line: line-through;
+    text-decoration-style: solid;
+    text-decoration-color: #808080;
+}
+.line-3 {
+    text-decoration-line: underline overline;
+    text-decoration-style: dashed;
+    text-decoration-color: #008000;
+}
+.line-4 {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: #ff0000;
+}

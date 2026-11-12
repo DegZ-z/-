@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;/*выстраивает элементы контейнера друг под другом*/
+    width: 200px;
+}
+.cursor-block {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #333333;
+    padding: 12px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-bottom: -1px;
+    font-size: 13px;
+}
+.c-pointer {
+    cursor: pointer;
+}
+.c-help {
+    cursor: help;
+}
+.c-wait {
+    cursor: wait;
+}
+.c-crosshair {
+    cursor: crosshair;
+}
+.c-custom {
+    cursor: url('cursor.png'), default;
+}
